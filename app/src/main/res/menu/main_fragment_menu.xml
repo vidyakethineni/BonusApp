@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_reminder"
+        android:icon="@drawable/ic_add_white"
+        android:title="@string/add_reminder"
+        android:textColor="#FFFF"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/feedback"
+        android:title="@string/feedback"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/about"
+        android:title="@string/about"
+        app:showAsAction="collapseActionView" />
+</menu>
